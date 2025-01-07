@@ -22,8 +22,8 @@ body {
 
   h1, h4 {
     background-color: transparent;
-    color: #432617;
-    text-shadow: 4px 3px 4px #f5f6f7; 
+    color: #f5f6f7;    
+    text-shadow: 5px 5px 5px #432617; 
     text-align: center;
     margin: auto;
     padding: 0.8em;

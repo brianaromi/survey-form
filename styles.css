@@ -1,0 +1,106 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background: url(https://marketplace.canva.com/EAFvnM3IyGk/1/0/900w/canva-brown-vintage-scrapbook-travel-collage-phone-wallpaper-C4AkXl6_ToQ.jpg);
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;  
+    font-weight: bold;
+  }
+
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  h1, h4 {
+    background-color: transparent;
+    color: #432617;
+    text-shadow: 4px 3px 4px #f5f6f7; 
+    text-align: center;
+    margin: auto;
+    padding: 0.8em;
+    width: 100%;
+    max-width: 650px;
+    min-width: 400px;
+  }
+  
+  form {
+    background-color: rgba(67, 38, 23, 0.9);
+    width: 100vw;
+    max-width: 650px;
+    min-width: 400px;
+    margin: auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0;
+    padding: 0.6em;
+    width: 100%;
+    min-height: 1em;
+    border: 1px solid #b2927b; 
+    border-radius: 4px;
+    background-color: #fefdfa;
+    color: #333;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: block;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 1.25rem;
+    min-height: 1.25rem;
+  }
+
+  input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 1.25rem;
+    min-height: 1.25rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #f5f6f7; 
+    border: none;
+    color: #432617;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.75em 1.5em;
+    border-radius: 4px;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #C4B09D;
+  }
+  

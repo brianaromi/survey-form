@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">Travel Survey</h1>
+  <p id="description">Share your opinion on how you like to travel the world.</p>
+<form id="survey-form">
+  <fieldset>
+    <label for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+    <label for="email">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+    <label for="age">Age <input id="number" type="number" min="18" max="120" placeholder="Age"> 
+    <label for="destination">What is your dream travel destination? <textarea id="destination" rows="3" columns="30" placeholder="Your #1 bucket-list place...">
+</textarea></label>
+<label for="dropdown">How do you prefer to travel? <select id="dropdown">
+  <option value="">Luxuriously</option>
+  <option value="1">Budget-friendly</option>
+  <option value="2">Adventurous</option>
+  <option value="3">Culturally focused</option>
+  <option value="4">Wellness</option>
+  </select></label>
+  <legend> Do you enjoy solo travel or group travel more? </legend>
+  <label for="solo"><input id="solo" type="radio" name="type" class="inline" checked> Solo</label>
+  <label for="group"><input id="group" type="radio" name="type" class="inline"> Group</label>
+  <legend>What are your favorite types of accomodations?</legend>
+  <input id="luxury" type="checkbox" value="luxury" checked><label for="luxury">Luxury hotels & resorts</label>
+  <input id="boutique" type="checkbox" value="boutique" ><label for="boutique">Boutique hotels</label>
+  <input id="generic" type="checkbox" value="generic" ><label for="generic">Generic & budget-friendly hotels</label>
+  <input id="rentals" type="checkbox" value="rentals" ><label for="rentals">Airbnb or vacation rentals</label>
+  <input id="hostels" type="checkbox" value="hostels" ><label for="hostels">Hostels</label>
+  <input id="camping" type="checkbox" value="camping" ><label for="camping">Camping or "glamping"</label>
+  <input id="van" type="checkbox" value="van" ><label for="van">RVs or van life setups</label>
+  <input id="homestay" type="checkbox" value="homestay" ><label for="homestay">Homestays or local guesthouses</label>
+  <label for="comments">Anything else you would like to add? <textarea id="comments" rows="3" columns="30" placeholder="Enter your comment here...">
+</textarea></label>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
